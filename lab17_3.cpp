@@ -8,6 +8,7 @@ vector<int> randomVector(unsigned int N){
     vector<int> v;
     for(unsigned int i = 0; i < N; i++) v.push_back(rand()%10);
     return v;
+	//kk
 }
 
 void showVector(const vector <int> &v){
